@@ -10,6 +10,5 @@ class Article(models.Model):
     # add thumbnail later
     # add author later
 
-
-def __str__(self):
-    return self.title
+    def __str__(self):  # a built in function which defines how an article is going to look
+        return self.title

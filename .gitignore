@@ -14,6 +14,7 @@ media
 ../../blogit/articles/__pycache__/models.cpython-39.pyc
 ../../blogit/db.sqlite3
 ../../.DS_Store
+../../blogit/articles/__pycache__/models.cpython-39.pyc
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files

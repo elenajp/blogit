@@ -3,6 +3,9 @@
 *.pot
 *.pyc
 __pycache__/
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -10,6 +13,7 @@ media
 
 ../../blogit/articles/__pycache__/models.cpython-39.pyc
 ../../blogit/db.sqlite3
+../../.DS_Store
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files

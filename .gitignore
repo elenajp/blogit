@@ -112,6 +112,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.blogit_env
 .env
 .venv
 env/

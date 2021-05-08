@@ -1,13 +1,6 @@
-{% load static %}
+{% extends 'base_layout.html' %}
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="{% static 'styles.css' %}">
-    </head>
-    <body>
+{% block content %}
         <h1>Articles List</h1>
         <div class="articles">
         {% for article in articles %}
@@ -18,5 +11,4 @@
             </div>
         {% endfor %}
         </div>
-    </body>
-</html>
+{% endblock %}

@@ -167,4 +167,4 @@ dmypy.json
 blogit_env/.DS_Store
 blogit_env/bin/
 .env
-.DS_Store.DS_Store
+.DS_Store

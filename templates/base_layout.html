@@ -8,7 +8,7 @@
         </head>
     <body>
         <div class="wrapper"></div>
-        <h1><a href="{% url 'articles:list' %}"><img src="{% static 'pen.jpg'%}" alt="pen and paper" width="200"></a></h1>
+        <h1><a href="{% url 'articles:list' %}"><img class="logo" src="{% static 'logo.png'%}" alt="pen and paper" width="200"></a></h1>
         {% block content %}
         {% endblock %}
         </div>
